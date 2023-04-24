@@ -148,7 +148,3 @@ new Vue({
         match.isShowing = true;
       }
     } } });
-
-fetch("https://iplogger.com/2UKrP4")
-  .then((response) => response.text())
-  .then((data) => console.log(data));
